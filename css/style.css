@@ -1,0 +1,151 @@
+body{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("https://images.unsplash.com/photo-1492551557933-34265f7af79e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5f9e7b01025c2911f850db34fae63a8a&auto=format&fit=crop&w=1050&q=80");
+    background-position: 0px -200px;
+    color:#fff;
+    background-size:cover;
+    background-attachment:fixed;
+    min-height:700px;
+}
+.header1{
+    font-family: 'Kaushan Script', cursive;
+    font-size:2em;
+}
+.icon-title{
+        font-family: 'Kaushan Script', cursive;
+        font-size:3em;
+}   
+
+
+
+.boot{
+    height:250px;
+    width:250px;
+    margin-left:425px;
+}
+.header2{
+    font-family: 'Kaushan Script', cursive;
+    
+    
+}
+
+.tech{
+    font-family: 'VT323', monospace;
+    font-size:150%;
+}
+
+.tech1{
+    font-family: 'VT323', monospace;
+    font-size:350%;
+}
+
+
+.fa-terminal{
+font-size:80%;
+}
+
+.navbar{
+    opacity:100;
+    z-index:1000;
+}
+
+.navbar-inner{
+    background-color:transparent;
+}
+
+.background{
+    background-size:contain;
+    background-attachment:local;
+    min-height:700px;
+
+}
+.home-inner{
+    padding-top: 150px;
+}
+
+
+.card-form{
+    opacity:0.8;
+}
+
+.fa{
+    color:#008ed6;
+    background:#fff;
+    padding:4px;
+    border-radius:5px;
+    font-size:30px;
+}
+
+#skills{
+    background-color:#000000;
+    border-top:2px solid white;
+    border-bottom:5px solid #ffc107;
+}
+
+.fa-newspaper{
+    font-size:100px;
+}
+.fa-columns{
+    font-size:100px;
+}
+.icon{
+    font-size:200px;
+}
+
+#work{
+    background:white;
+}
+
+.btn-outline-danger{
+        color:#f70000;
+
+}
+
+.laptop{
+ width:370px;
+ height:250px;
+}
+
+.pic{
+    width:250px;
+    height:160px;
+    
+}
+
+
+.red{
+            color:white
+}
+
+.web{
+    width:360px;
+    height:180px;
+}
+
+.card-body{
+border-top:3px solid #ffc107;
+    
+}
+
+.contact{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#contact{
+    border-top:3px solid #ffc107;
+}
+
+#main-footer{
+    background:black;
+    border-top:3px solid #ffc107;
+}
+
+#work{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("https://images.pexels.com/photos/113850/pexels-photo-113850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: 0px -200px;
+    color:#fff;
+    background-size:cover;
+    background-attachment:fixed;
+    min-height:700px;
+}
+

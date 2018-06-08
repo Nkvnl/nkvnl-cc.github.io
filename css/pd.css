@@ -1,0 +1,48 @@
+
+
+.navbar{
+    border-bottom:#164A15 3px solid;
+    opacity:0.8;
+    background:#EFEFEF
+}
+
+
+#home-section{
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(http://www.dpsupply.com/sites/all/themes/dpsupply/logo.png) left center   no-repeat, url(http://www.dpsupply.com/sites/default/files/header.png) right no-repeat;
+    background-size:auto;
+    min-height:300px;
+    margin-left:200px;
+} 
+
+
+.products{
+       width: 100px;
+    float: left;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+.backgr{
+    border-top:#164A15 3px solid;
+    opacity:0.8;
+    background:#EFEFEF;
+}
+
+.imgg{
+    width: 20%;
+    height: 15%;
+}
+
+.pad{
+    margin-top:20px;
+}
+
+.products1{
+       width: 200px;
+    float: left;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
+

@@ -1,0 +1,69 @@
+body{
+    background:#333;
+    color:#fff;
+}
+
+.navbar{
+    border-bottom:#ecdb54 3px solid;
+    opacity:0.8;
+}
+
+
+#home-section{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("https://images.pexels.com/photos/417351/pexels-photo-417351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size:cover;
+    background-attachment:fixed;
+    min-height:700px;
+}
+
+.fa{
+    color:#ecdb54
+;
+}
+
+.rounded-circle{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    padding-right:50px;
+    padding-left:50px;
+
+    
+}
+
+.fa-accusoft{
+    font-size:50px;
+}
+
+.seaside{
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #111;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease-in-out;
+  max-width: 100%;
+  height: auto; 
+    
+}
+
+#houses1{
+    border-top:#ecdb54 3px solid;
+    opacity:0.8;
+}
+
+#houses3{
+    border-bottom:#ecdb54 3px solid;
+    opacity:0.8;
+}
+
+#houses4{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("https://images.pexels.com/photos/248771/pexels-photo-248771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size:cover;
+    background-attachment:fixed;
+    min-height:700px;
+}
+
+#main-footer{
+    border-top:#ecdb54 3px solid;
+    opacity:0.8;
+}

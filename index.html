@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio
+</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Kaushan+Script|VT323" rel="stylesheet">
+
+
+</head>
+<body id="home-section">
+  <nav class="navbar navbar-expand-xl navbar-light pt-5">
+    <div class="container  navbar-inner position-ixed">
+    <div class="row">
+      <a class="navbar-brand text-white btn-lg btn-outline-dark m-auto tech mr-5 mt-5" href="#home"> <i class="fas fa-terminal"></i> Niek van Losenoord  </a>
+        <ul class="navbar-nav ml-auto">
+
+            <a href="#home" class="nav-link btn-lg btn-outline-dark ml-5 m-auto text-warning mt-5"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="btn-lg btn-outline-dark m-auto text-warning mt-5 nav-link"><i class="fas fa-th-list"></i>  My Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#work" class="text-warning btn-lg btn-outline-dark m-auto mt-5 nav-link"><i class="fas fa-code"></i> My Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="text-warning btn-lg btn-outline-dark m-auto mt-5 nav-link" data-toggle="modal" data-target="#contactModal" ><i class="fas fa-comments"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+  
+  <header id="home" class="background text-center">
+    <div class="dark-overlay">
+      <div class="home-inner">
+        <div class="container">
+          <div class="row">
+            <div class="none d-lg-block">
+              <div class="col-lg-12 text-center m-auto  text-white mb-5">
+              <p class="header1"> Welcome to my portfolio page</p>
+           
+              <h1 class="display-1 header2 text-warning m-5"><strong> It's Very Nice To Meet You!</strong> </h1>
+            </div>
+           
+                          <button class="btn btn-warning mx-5" data-toggle="modal" data-target="#contactModal"><i class="fas fa-comments"></i> Get in touch!</button>
+
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+ <section id="skills">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <div>
+            <h1 class="display-4 pb-3 pt-5 text-warning "><i class="fas fa-th-list"></i> My Skills</h1>
+            <p class="tech" pb-4 ><i class="fas fa-terminal"></i>Web Design / Front-end Web Development / Content Writing</p>
+          </div>
+        </div>
+      </div>
+      <div class="row  pb-5">
+        <div class="col-lg-4 px-2 py-2 text-center"><i class=" icon fab fa-html5"></i>
+        <p class="pt-5 icon-title text-warning">HTML5</p></div>
+        <div class="col-lg-4 px-2 py-2 text-center"><i class="icon fab fa-css3-alt"></i>
+        <p class="pt-5 icon-title text-warning">CSS3</p></div>
+        <div class="col-lg-4 px-2 py-2 text-center"><i class="icon fab fa-js"></i>
+        <p class="pt-5 icon-title text-warning">JavaScript</p></div>
+    </div>
+    <div class="col-lg-12 pb-5">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEUAAAD///+IiIjn5+esrKxFRUX29vZTU1NhYWH7+/ulpaWZmZnc3Nzy8vJlZWXOzs67u7tsbGx3d3eTk5OAgIDExMTT09NycnJKSkqGhoa4uLg5OTmysrJbW1seHh7a2torKysNDQ0aGho/Pz+fn58wMDAdHR2KAhruAAAEJUlEQVR4nO2dC1LbQBBEtbYxGMvY4B8/YyCQ+x8xOCQUVGBGVcx025t+B9iqV5JWuzO9UtMIIYQQQgghhBBCCCGEEEIIIYQQQgghxP/OxaT/fdrtajkbjBcnz2ydT+iVWCarweIHW+oD0YavrMZHbLE3cgxfGN5est1eSTN8od9j2+3INHxhzPZLNyyjRe2GpbR3tRuWclG9YRlUb1iW1RsyFUGG5bZ6Q950AzMs99UbttUbFtLqBmg4qt6wzKs3HFZvWNbVG06rNyz1G57vn+Hs8tjiZN17mm1HnQ0Zq1PHsNvO7m4x7WbIWNeEGO4Yd7qSiSZfEWbYNIMOhoSyf6Bhc+wbEqaaSMPm2TUk1IhDDf2reJpjYRFr2Jw6htcpEibBhs3QHo9QkYo2nNvjEVam0YZN/YZt9Ya31RvaD2IFM02zNscjbC7CDc/M8Qg94XDDE3M8Qm0ffA0J+YxwwwtzvAQDD+xc2k8w8Ag3vLaGO9g6zXv61nBnCQYe2HVpgoBLtOGVNdosw8Aj2tC8SSmBxWBDc83G6QIHG5pF0+MUA49YQ3NzSOk8BRuuzLEekhQcAg2PJuZQrEBNmOGDuZghvSl2BBlulvY4tDSNa9ihRn23mS/dvhNjyf0Hx3A0dPDU6IKYLveKKAgxpEaEEYaMLRPSkLSSgRlOyBcw23DEyep9JNNwyAgI/UPyXTrlS6bPNEP24S7E+5AQTwAb0iLeQMPS/qzdkJQPhhrSVqfABO1+VqIqUISmoCln9LA576fqDctJ9YaE/ppjeH1z5HG5Wc8H044lKcKjGFYRvu9tOyluEmU+JbJv8dglyw4vLAZ31+zc3m/Q/YvoHvCl+0CiL2J4UsEJmBb4GyPe0G7lF/jiLcHQCUKj34kZhueOIfZYSYah9yhib9MUQztjCr5NUwy9cyXQ2EmOobO4gZZQcwztoDB2+Z1j6LwwoMuaJEPnQQxVcEgydHZSyHhUkqETr0HGMJMMnYAUsjOcZOi8LpB7RI4hsheVZOjs9a9CHWySDGfVG9pZ2hruUjtMW8NMY49awdvC2+UjD+nlGDoTTXmMlTDJMXQED3/l7X0d4+B3T3feJTz4HbBXEj74KoY3zRx8JcrZOO2I1zAIN+zQJz3oinCnWAA2xxdqOO/WzU9S+YIww5tex+/uocMK3/tu4tu3E9226DvAX45A52lK2WIFCYbo08BwQ3hAEW4I/58H2hB/NgFsSDgsCzZEbu4phoR4KdaQ8ocrpCHndBDQkHTgAmfIOsOmU0FBTG5YgiBD2mc/QIYTeHodbEg+JptuyPtZF8aQewQ43bCl/79yR5phOyb/u/IvKYaT2YL0Ya9PiDacTE/XhE2gQch/ufv9drW8Pu2d79f/qoUQQgghhBBCCCGEEEIIIYQQQgghhBBin/kFStVFFG2C8SAAAAAASUVORK5CYII=" class="boot" alt="">
+    <p class="text-center text-warning icon-title pb-5"> Bootstrap 4.0</p>
+    </div>
+ </section>
+  
+  <section id="work" class="pt-5 text-muted">
+    <div class="container pb-5">
+      <div class="row">
+        <div class="col-lg-12 align-self-center">
+          <h1 class="display-4 text-center text-light py-3"><i class="fas fa-code"></i> My Work</h1>
+          <h1 class="text-center text-warning header1 pb-5">Below are some of the Websites and Themes i built, always more to come.</h1>
+        </div>
+        </div>
+        <div class="row">
+<div class="card-group">
+  <div class="card bg-dark mx-2 my-4">
+    <img class="card-img-top web rounded" src="image/dark.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title text-center text-white py-1">Dark Theme For Bootstrap 4.0</h5>
+    </div>
+    <a href="dark.html" class="btn btn-warning m-auto"><i class="fas fa-link"></i> Visit Dark Theme</a>
+      <small class="text-muted py-1 text-center">Last updated 1 day ago</small>
+    </div>
+  </div>
+  <div class="card bg-dark mx-2 my-4">
+    <img class="card-img-top web rounded" src="image/looplab.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title text-center text-white py-1">LoopLAB Demo</h5>
+    </div>
+    <a href="ll.html" class="btn btn-warning m-auto"><i class="fas fa-link"></i>
+
+ Visit LoopLAB</a>
+      <small class="text-muted py-1 text-center">Last updated 3 days ago</small>
+    </div>
+    <div class="card bg-dark mx-2 my-4">
+    <img class="card-img-top web rounded" src="image/gea.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title text-center text-white py-1">G.E.A.</h5>
+    </div>
+    <a href="gea.html" class="btn btn-warning m-auto"><i class="fas fa-link"></i>
+
+ Visit G.E.A.</a>
+      <small class="text-muted py-1 text-center">Last updated 3 days ago</small>
+    </div>
+    <div class="card bg-dark mx-2 my-4">
+    <img class="card-img-top web rounded" src="image/vc.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title text-center text-white py-1">Vacation Rentals Demo</h5>
+    </div>
+    <a href="vc.html" class="btn btn-warning m-auto"><i class="fas fa-link"></i>
+
+ Visit Vacation Rentals</a>
+      <small class="text-muted py-1 text-center">Last updated 7 days ago</small>
+    </div>
+    <div class="card bg-dark mx-2 my-4">
+    <img class="card-img-top web rounded" src="image/dp.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title text-center text-white py-1">DP Supply</h5>
+    </div>
+    <a href="dp.html" class="btn btn-warning m-auto"><i class="fas fa-link"></i>
+
+ Visit DP Supply</a>
+      <small class="text-muted py-1 text-center">Last updated 8 days ago</small>
+    </div>
+    <div class="card bg-dark mx-2 my-4">
+    <img class="card-img-top web rounded" src="image/dark.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title text-center text-white py-1">Dark Theme For Bootstrap 4.0</h5>
+    </div>
+    <a href="dark.html" class="btn btn-warning m-auto"><i class="fas fa-link"></i>
+
+ Visit Website</a>
+      <small class="text-muted py-1 text-center">Last updated 10 days ago</small>
+    </div>
+  
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!--contact
+  
+<section id="contact" class="bg-secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">.
+        <h1 class="display-4 m-auto text-center py-3"><i class="fas fa-comment"></i> Contact </h1>
+        </div>
+        </div>
+        <div class="row">
+       <div class="col-lg-6">
+         <h4 class="display-5 m-auto">Contact form</h4>
+         <button class="btn btn-lg btn-warning m-auto my-5"><i class="fas fa-comment"></i> Get in Touch</button>
+
+       </div>
+    </div>
+</section>
+
+-->
+  
+  
+ <footer id="main-footer" class="">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <div class="py-4">
+            <h1 class="h6"> niekvanlosenoord.design</h6>
+            <p>Copyright &copy; 2018</p>          
+            </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+   <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h5 class="modal-title" id="contactModalTitle">  <i class="fas fa-comments center"></i>Get in touch!</h5>
+          <button class="close" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="name">Message</label>
+              <textarea class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-warning btn-block">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
